@@ -13,10 +13,10 @@
     ]);
     $data = curl_exec($curl);
     $dataTable = json_decode($data, true);
-    $panik = count($dataTable);
+    $long = count($dataTable);
     $compt = 0;
-    while ($compt< $panik){
-        echo 1;
+    while ( $compt < $long){
+        echo $dataTable['valide'];
     }
 
     curl_close($curl);
