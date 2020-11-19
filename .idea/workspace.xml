@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="" />
+    <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +151,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -182,7 +188,9 @@
       <workItem from="1605542882490" duration="597000" />
       <workItem from="1605602435243" duration="6214000" />
       <workItem from="1605616725014" duration="12398000" />
-      <workItem from="1605689049174" duration="2871000" />
+      <workItem from="1605689049174" duration="4006000" />
+      <workItem from="1605708368926" duration="6108000" />
+      <workItem from="1605776833858" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605261276374</created>
@@ -212,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605693867221</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initialisation des routes">
+      <created>1605694194119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605694194119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,10 +255,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="811" y="316" width="351" height="489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605516986962" />
-    <state x="779" y="311" width="447" height="491" key="FileChooserDialogImpl" timestamp="1605616861957">
+    <state x="779" y="311" width="447" height="491" key="FileChooserDialogImpl" timestamp="1605708542330">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="447" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1605616861957" />
+    <state x="779" y="311" width="447" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1605708542330" />
     <state x="855" y="455" width="281" height="203" key="Github.ShareDialog" timestamp="1605283968826">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -264,17 +279,17 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605264742183" />
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605517580629">
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605694210167">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605517580629" />
-    <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605283932417">
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605694210167" />
+    <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605694032125">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605283932417" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605618796285">
+    <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605694032125" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605708454652">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605618796285" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605708454652" />
   </component>
 </project>

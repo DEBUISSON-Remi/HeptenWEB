@@ -36,5 +36,3 @@ Route::get('/dossiers',function() {
 Route::get('/chiffre',function() {
     return view('pages/chiffre');
 })->name('chiffre');
-
-
