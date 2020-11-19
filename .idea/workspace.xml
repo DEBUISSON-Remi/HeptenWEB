@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/devis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/devis.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +150,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -187,7 +189,8 @@
       <workItem from="1605616725014" duration="12398000" />
       <workItem from="1605689049174" duration="4006000" />
       <workItem from="1605708368926" duration="6108000" />
-      <workItem from="1605776833858" duration="5383000" />
+      <workItem from="1605776833858" duration="5759000" />
+      <workItem from="1605791564023" duration="10732000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605261276374</created>
@@ -238,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605780232625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="utilisation de l'api">
+      <created>1605782702387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605782702387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
