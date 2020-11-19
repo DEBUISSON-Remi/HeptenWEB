@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +187,7 @@
       <workItem from="1605616725014" duration="12398000" />
       <workItem from="1605689049174" duration="4006000" />
       <workItem from="1605708368926" duration="6108000" />
-      <workItem from="1605776833858" duration="2971000" />
+      <workItem from="1605776833858" duration="5383000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605261276374</created>
@@ -227,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605694194119</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="utilisation de l'api">
+      <created>1605780148573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605780148574</updated>
+    </task>
+    <task id="LOCAL-00007" summary="utilisation de l'api">
+      <created>1605780232625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605780232625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="initialisation des routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialisation des routes" />
+    <MESSAGE value="utilisation de l'api" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilisation de l'api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="316" width="351" height="489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605516986962">

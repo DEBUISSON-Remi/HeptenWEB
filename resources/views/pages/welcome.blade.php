@@ -13,11 +13,15 @@
     ]);
     $data = curl_exec($curl);
     $dataTable = json_decode($data, true);
-    $long = count($dataTable);
-    $compt = 0;
-    while ( $compt < $long){
-        echo $dataTable['valide'];
+    $devisAttente= 0;
+    $long = count($dataTable)/2;
+    for ($i = 0; $i <= $long; $i++){
+        if ($dataTable[$i]['valide'] == "") {
+            $devisAttente = $devisAttente + 1;
+        }
     }
+
+    echo $devisAttente;
 
     curl_close($curl);
 
