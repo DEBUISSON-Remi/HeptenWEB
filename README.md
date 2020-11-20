@@ -22,7 +22,7 @@ PHP Storm
 laravel
 
 *Versions :
-v0
+v1.1
 
 *Auteur :
 Rémi DEBUISSON
