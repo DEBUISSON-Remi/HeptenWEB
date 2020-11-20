@@ -21,11 +21,10 @@
             $devisAttente ++;
         }
     }
-
     echo $devisAttente;
-
-    curl_close($curl);
     echo " nombre de demande en attente d'être traitée pour un devis";
+    curl_close($curl);
+
 
 
 
@@ -47,11 +46,10 @@
             $devisAttente = $devisAttente + 1;
         }
     }
-
     echo $devisAttente;
-
+    echo " le nombre de devis en attente d'être accepté par les clients";
     curl_close($curl);
-echo " le nombre de devis en attente d'être accepté par les clients";
+
 
 
     echo "<br/>";
@@ -73,9 +71,9 @@ echo " le nombre de devis en attente d'être accepté par les clients";
     }
 
     echo $devisAttente;
-
+    echo " le nombre de devis refusés ou abandonnés";
     curl_close($curl);
-echo " le nombre de devis refusés ou abandonnés";
+
 
 
     echo "<br/>";
@@ -103,12 +101,9 @@ echo " le nombre de devis refusés ou abandonnés";
                 $countNonTraitee++;
                 }
         }
-
     }
-
     echo $countNonTraitee . " le nombre de devis acceptés mais non-traités par le responsable logistique de son agence";
     echo "<br/>";
     echo $countTraite ." le nombre de devis acceptés et traités par le responsable logistique de son agence";
-
     ?>
 @endsection
