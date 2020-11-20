@@ -18,8 +18,8 @@ echo " la liste des chiffres d'affaires par client pour la semaine en cours, pou
 echo "</br>";
 
 for ($i = 0; $i <= $long; $i++){
-        echo $dataTable[$i]['CA'] . "</br>";
-        echo date('W',strtotime ($dataTable[$i]['dateDemande']))." ";
+        echo $dataTable[$i]['CA'] ."€ (chiffre d'affaire) - ";
+        echo date('W',strtotime ($dataTable[$i]['dateDemande']))." (numéro de semaine)". "</br>";
 }
     curl_close($curl);
 
