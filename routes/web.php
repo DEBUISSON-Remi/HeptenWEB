@@ -36,3 +36,15 @@ Route::get('/dossiers',function() {
 Route::get('/chiffre',function() {
     return view('pages/chiffre');
 })->name('chiffre');
+
+Route::get('/client',function() {
+    return view('pages/clients');
+})->name('client');
+
+Route::get('/devis/search',function() {
+    return view('pages/unDevi');
+})->name('unDevi');
+
+Route::get('/demande/search',function() {
+    return view('pages/demandeTransport');
+})->name('demandeTransport');
