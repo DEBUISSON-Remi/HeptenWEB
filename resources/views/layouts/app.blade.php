@@ -29,7 +29,8 @@
             <a class="btn-info" href='{{ route('accueil') }}'>Accueil</a> -
             <a class="btn-info" href='{{ route('devis') }}'>Devis</a> -
             <a class="btn-info" href='{{ route('dossiers') }}'>dossiers</a> -
-            <a class="btn-info" href='{{ route('chiffre') }}'>chiffre d'affaire</a>
+            <a class="btn-info" href='{{ route('chiffre') }}'>chiffre d'affaire</a> -
+            <a class="btn-info" href='{{ route('parametres') }}'>paramètres</a>
 
 
             <div class="container">

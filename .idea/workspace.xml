@@ -11,15 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/clients.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/demandeTransport.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/unDevi.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/parametres.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Clients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Conducteur.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Devis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Distance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MarchandiseType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Marque.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Permis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Trajets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ville.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/VilleFranceFree.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/dossiers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/dossiers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,11 +167,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/pages" />
     </key>
   </component>
@@ -208,6 +215,11 @@
       <workItem from="1606139783147" duration="8331000" />
       <workItem from="1606210690679" duration="1147000" />
       <workItem from="1606223533518" duration="9282000" />
+      <workItem from="1606234025234" duration="85000" />
+      <workItem from="1606293832068" duration="2583000" />
+      <workItem from="1606310762955" duration="5348000" />
+      <workItem from="1606382619469" duration="1698000" />
+      <workItem from="1606393139446" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605261276374</created>
@@ -286,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605885828227</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pages dossier">
+      <created>1606234067102</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606234067102</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +329,8 @@
     <MESSAGE value="utilisation de l'api" />
     <MESSAGE value="récupération des données de l'api pour la page devis" />
     <MESSAGE value="init page chiffre d'affaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="init page chiffre d'affaire" />
+    <MESSAGE value="pages dossier" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages dossier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="316" width="351" height="489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605516986962">
@@ -341,10 +361,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605264742183" />
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605885837097">
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1606234076058">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605885837097" />
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606234076058" />
     <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605694032125">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

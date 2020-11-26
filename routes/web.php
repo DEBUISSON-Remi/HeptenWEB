@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('pages/welcome');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/',function() {
     return view('pages/welcome');
 })->name('accueil');
@@ -48,3 +44,11 @@ Route::get('/devis/search',function() {
 Route::get('/demande/search',function() {
     return view('pages/demandeTransport');
 })->name('demandeTransport');
+
+Route::get('/parametes',function() {
+    return view('pages/parametres');
+})->name('parametres');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
