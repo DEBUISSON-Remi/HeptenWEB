@@ -19,16 +19,17 @@ curl_setopt_array($curl, [
 $data = curl_exec($curl);
 $dataTable = json_decode($data, true);
 $long = count($dataTable)-1;
-echo "<table class='table'>";
-
-echo "<tr>";
-echo "<th>"."identifiant du devis "."</th>";
-echo "<th>"."identifiant du transport"."</th>";
-echo "<th>"."ville de départ"."</th>";
-echo "<th>"."ville d'arrivée"."</th>";
-echo "<th>"."distance"."</th>";
-echo "<th>"."duree"."</th>";
-echo "<th>"."état du devis"."</th>"."</tr>";
+?>
+    <table class='table'>
+    <tr>
+    <th>identifiant du devis</th>
+    <th>identifiant du transport</th>
+    <th>ville de départ</th>
+    <th>ville d'arrivée</th>
+    <th>distance</th>
+    <th>duree</th>
+    <th>état du devis</th></tr>
+<?php
 
 for ($i = 0; $i <= $long; $i++){
     if ($dataTable[$i]['id'] == $idDevis){

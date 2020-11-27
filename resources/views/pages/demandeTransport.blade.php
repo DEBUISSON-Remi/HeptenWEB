@@ -17,14 +17,14 @@ curl_setopt_array($curl, [
 $data = curl_exec($curl);
 $dataTable = json_decode($data, true);
 $long = count($dataTable)-1;
-echo "<table class='table'>";
-
-echo "<tr>";
-echo "<th>"."identifiant du véhicule"."</th>";
-echo "<th>"."identifiant du conducteur"."</th>";
-echo "<th>"."date de départ"."</th>";
-echo "<th>"."date d'arrivée prévue"."</th>"."</tr>";
-
+?>
+<table class='table'>
+    <tr>
+    <th>identifiant du véhicule</th>
+    <th>identifiant du conducteur</th>
+    <th>date de départ</th>
+    <th>date d'arrivée prévue</th></tr>
+<?php
 for ($i = 0; $i <= $long; $i++){
     if ($dataTable[$i]['devis_id'] == $idDevis){
         echo "<tr>";

@@ -11,22 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c6e5d8e-9196-4b5a-9bec-01d1cf85d8c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/parametres.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Clients.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Conducteur.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Devis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Distance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MarchandiseType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Marque.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Permis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Trajets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Ville.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/VilleFranceFree.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/chiffre.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/clients.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/clients.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/demandeTransport.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/demandeTransport.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/parametres.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/parametres.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/unDevi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/unDevi.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +209,8 @@
       <workItem from="1606293832068" duration="2583000" />
       <workItem from="1606310762955" duration="5348000" />
       <workItem from="1606382619469" duration="1698000" />
-      <workItem from="1606393139446" duration="2718000" />
+      <workItem from="1606393139446" duration="3026000" />
+      <workItem from="1606479569890" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605261276374</created>
@@ -305,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606234067102</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="page paramètres">
+      <created>1606397048896</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606397048896</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +328,8 @@
     <MESSAGE value="récupération des données de l'api pour la page devis" />
     <MESSAGE value="init page chiffre d'affaire" />
     <MESSAGE value="pages dossier" />
-    <option name="LAST_COMMIT_MESSAGE" value="pages dossier" />
+    <MESSAGE value="page paramètres" />
+    <option name="LAST_COMMIT_MESSAGE" value="page paramètres" />
   </component>
   <component name="WindowStateProjectService">
     <state x="811" y="316" width="351" height="489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605516986962">
@@ -361,10 +360,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="266" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605264742183" />
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1606234076058">
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1606397061033">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606234076058" />
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606397061033" />
+    <state x="775" y="466" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606396779298">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="775" y="466" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606396779298" />
     <state x="800" y="463" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605694032125">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

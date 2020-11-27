@@ -17,21 +17,22 @@ curl_setopt_array($curl, [
 $data = curl_exec($curl);
 $dataTable = json_decode($data, true);
 $long = count($dataTable)-1;
-echo "<table class='table'>";
+?>
 
-echo "<tr>";
-echo "<th>"."id demande"."</th>";
-echo "<th>"."numéro de client"."</th>";
-echo "<th>"."numéro de devis"."</th>";
-echo "<th>"."ville de départ"."</th>";
-echo "<th>"."ville d'arrivée"."</th>";
-echo "<th>"."distance"."</th>";
-echo "<th>"."duree"."</th>";
-echo "<th>"."poids"."</th>";
-echo "<th>"."date de la demande"."</th>";
-echo "<th>"."date limite "."</th>";
-echo "<th>"."Chiffre d'affaire"."</th>"."</tr>";
-
+    <table class='table'>
+    <tr>
+    <th>id demande"."</th>
+    <th>numéro de client</th>
+    <th>numéro de devis</th>
+    <th>ville de départ</th>
+    <th>ville d'arrivée</th>
+    <th>distance</th>
+    <th>duree</th>
+    <th>poids</th>
+    <th>date de la demande</th>
+    <th>date limite </th>
+    <th>Chiffre d'affaire</th>"."</tr>
+<?php
 for ($i = 0; $i <= $long; $i++){
     if ($dataTable[$i]['client_id'] == $idClient){
         echo "<tr>";
